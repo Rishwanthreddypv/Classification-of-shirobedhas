@@ -1,0 +1,22 @@
+Statistical test results
+------------------------
+Chi-square (reduced): chi2=60.0, p=0.021873468441390917, dof=40
+
+Overall accuracy: 50.00%
+
+Per-class metrics (precision, recall, f1):
+Class 0: 0.25, 1.00, 0.40
+Class 1: 0.67, 1.00, 0.80
+Class 2: 0.50, 0.50, 0.50
+Class 3: 0.00, 0.00, 0.00
+Class 4: 0.50, 0.50, 0.50
+Class 5: 0.00, 0.00, 0.00
+Class 6: 0.00, 0.00, 0.00
+Class 7: 1.00, 1.00, 1.00
+Class 8: 1.00, 0.50, 0.67
+
+H1 conclusion:
+H1 supported: Chi-square shows dependence (chi2=60.00, p=0.02187 < 0.05), indicating keypoint features are discriminative.
+
+H2 conclusion:
+H2 assessment: LSTM shows learning behavior with accuracy 50.00%. Confusion matrix and per-class metrics indicate the model captures temporal patterns, though accuracy is moderate and further improvements are possible.
